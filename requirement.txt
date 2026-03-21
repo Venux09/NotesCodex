@@ -1,0 +1,16 @@
+project:-
+a place where you can store a text and pdf then you have choise to generate and pdf or .text
+file in which you  could have generted either summary or short notes in bullet points then we will
+add that data to pdf or txt file[not images cane be saved = error]
+
+
+requirements :- 
+1.structure of file : we would need main.py first then pdf file and storage where data is stored
+and then we would need where file is putting simply user input
+and we would need ai engine where text or summary and short notes can be generated...
+
+
+
+requirements #2 :- 
+1. for pdf generation 1.pdfplumber and fpdf2
+2.groq ai free key for notes and summary via short notes.
