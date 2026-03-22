@@ -14,3 +14,8 @@ and we would need ai engine where text or summary and short notes can be generat
 requirements #2 :- 
 1. for pdf generation 1.pdfplumber and fpdf2
 2.groq ai free key for notes and summary via short notes.
+
+
+
+
+#completed the reading of the file and returning it to the it to the main.py
