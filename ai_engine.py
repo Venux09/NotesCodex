@@ -25,7 +25,7 @@ def generate_output(text,choice):
 
             model='llama-3.3-70b-versatile',
 
-            messages=[{"role":"system","content":"ai create a page atleast of 2 pages which should contain crisp notes with bullet points and should be on main on the points "},
+            messages=[{"role":"system","content":"ai create a page atleast of 2 pages which should contain crisp notes with bullet points and should be on main on the points .just write the context not anything further like let me know if you want anything extra i am using this for project "},
             {"role":"user","content":f"give short and crisp crisp on this text {text}"}]
             
     )
