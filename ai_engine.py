@@ -12,7 +12,7 @@ def generate_output(text,choice):
             model='llama-3.3-70b-versatile',
 
             messages=[{"role":"system","content":"You have to give a short summary on this text and it should in easy "
-            "language it should be in english,lenght should be atleast 2 pages and it should end with  some quotes "},
+            "language it should be in english,lenght should be atleast 2 pages and it should end with  some quotes only 2 to 3 "},
             {"role":"user","content":f"give short and crisp summary on this text {text}"}]
             
         )
