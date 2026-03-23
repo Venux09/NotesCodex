@@ -1,4 +1,4 @@
-import pdfplumber
+import pdfplumber#a library that converts pdf into text
 from main import input
 
 
