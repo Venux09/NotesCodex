@@ -21,3 +21,7 @@ requirements #2 :-
 #completed the reading of the file and returning it to the it to the main.py
 # ai engine is maded 
 # text can be generated from the pdf 
+last thing that is remaining is pdf generation
+so far :-
+we have occupied text from the pdf and then maded ai engine and convereting that into summary or bullet points 
+now we have to make or generate pdf using the fpdf2 libraries 
