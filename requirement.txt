@@ -19,3 +19,5 @@ requirements #2 :-
 
 
 #completed the reading of the file and returning it to the it to the main.py
+# ai engine is maded 
+# text can be generated from the pdf 

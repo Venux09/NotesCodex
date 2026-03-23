@@ -1,12 +1,15 @@
 import pdfplumber#a library that converts pdf into text
-from main import input
 
 
-def extract_text_from_pdf(input):
-    with pdfplumber.open(input) as pdf:
+
+def extract_text_from_pdf(pdf_path):
+    with pdfplumber.open(pdf_path) as pdf:
         text = ""
         for page in pdf.pages:
-            text += page.extract_text()
-            return text
+            extracted = page.extract_text()
+            if extracted:# added becuase it will only add something when there is not none
+                text += extracted
+
+    return text
 
 
