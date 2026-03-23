@@ -21,7 +21,6 @@ text = extract_text_from_pdf(path)
 result = generate_output(choice,text)
 
 
-print("TEXT:", text)
 print("CHOICE:", choice)
 result = generate_output(text, choice)
 print("RESULT:", result)
