@@ -13,6 +13,9 @@ def file_path():#calling the func so we can use the path and can generate the te
 
 path = file_path()
 text = extract_text_from_pdf(path)# it is a text which is extracted from the pdf
+if text is None:
+    print("Exiting--------------")
+    exit()
 
 
 print("What do you want?")
