@@ -1,7 +1,8 @@
 from reader import extract_text_from_pdf
 from ai_engine import generate_output
 from pdf_generation import pdf_generation
-
+from storage import init_db, save_to_db
+init_db()
 
 
 
@@ -31,3 +32,4 @@ result = generate_output(text, choice)#generate ai summary or bullet point notes
 
 pdf_generation(result)
 print("pdf saved as notes.pdf")
+save_to_db(path,choice,result)
